@@ -1,0 +1,8 @@
+# config/packages/jms_serializer.yaml
+jms_serializer:
+  default_context:
+    serialization:
+      enable_max_depth_checks: true
+      groups: ['default']
+  metadata:
+    auto_detection: true
